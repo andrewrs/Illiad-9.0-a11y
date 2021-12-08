@@ -87,7 +87,8 @@ ul {
 }
 
 .small-notes {
-    color: #868e96;
+    /* color: #868e96; */
+    color: #6F2020;
     font-size: 14px;
     padding: 4px 0 0;
 }
@@ -99,7 +100,8 @@ ul {
 }
 
 .req {
-    color: #c74827;
+    /* color: #c74827; */
+    color: #BD2600;
     font-size: 12px;
     padding:0 0 0 6px;
     text-align: right;
