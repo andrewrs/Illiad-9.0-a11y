@@ -11,7 +11,7 @@
     <#INCLUDE filename="include_menu.html">
 
     <div id="content" class="container" role="heading" aria-label="Content">
-        <h2 class="page-header">Request History</h2>
+       <legend><h2 class="page-header">Request History</h2></legend>
        
         <#DATAREPEATER name="ViewLendingRequestHistory" TemplateFile="templates/DataRow_DefaultRequest.html" noDataAction="No requests" orderby="TransactionNumber DESC">
                 
