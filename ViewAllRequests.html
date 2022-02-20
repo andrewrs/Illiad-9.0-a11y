@@ -10,7 +10,7 @@
     <#INCLUDE filename="include_header.html">
     <#INCLUDE filename="include_menu.html">
     
-    <div id="content" class="container" role="heading" aria-label="Content">
+    <div id="content" class="container" role="main" aria-label="Content">
         <h2 class="page-header"><span aria-hidden="true" class="fas fa-list-alt fa-1x"></span> All Requests</h2>	  
 		
         <#DATAREPEATER name="ViewAllRequests" TemplateFile="templates/DataRow_DefaultRequest.html" noDataAction="You have no requests" orderby="TransactionNumber DESC">
